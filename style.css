@@ -1,0 +1,50 @@
+.display {
+    max-width: 300px;
+    margin: 0 auto;
+    font-family: 'Stardos Stencil', cursive;
+    font-size: 1em;
+    background-color: #b07fc4;
+    border-radius: 2em;
+    box-shadow: 1em 1em 4em #9e3dc2;
+}
+
+body {
+    text-align: center;
+    padding-top: 5em;
+    background-color: #b07fc4;
+    padding-top: 15.5em;
+  }
+
+.cronometro {
+    font-size: 3em;
+    color:blueviolet;
+}
+
+#hour, #minute, #second {
+    font-size: 3em;
+}   
+
+.botoes {
+    padding-top: 1.5em;
+}
+.button {
+    display: inline-block;
+    padding: .5em 1em;
+    margin: 1em;
+    border-bottom: #9e3dc2;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #9e3cd2;
+    color: #67c7f2;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 2em;
+}
+
+.button:hover, .button:focus {
+    box-shadow: inset 0 0 0 2em;
+        color:#302de652;
+}
+
